@@ -160,3 +160,15 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.name-list {
+    position: fixed; /* Fija la posición */
+    top: 20px;       /* Distancia desde arriba */
+    right: 20px;     /* Distancia desde la derecha */
+    background: var(--color-white);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 200px;
+    overflow-y: auto; /* Scroll si hay muchos nombres */
+}
